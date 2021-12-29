@@ -1,21 +1,18 @@
 body{
     height: 100vh;
     margin: 0;
-    display: flex;
-    align-items: center;
+    display: flex; 
 }
 
 .container{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+    margin-left: 30%;
+    margin-top: 30px;  
 }
 
 .boxes{
-    background-color: gray;
+    margin-bottom: 10px;
 }
-
-
+  
 .box{
     width: 50px;
     height: 50px;
@@ -33,7 +30,7 @@ body{
 .box3{
     background-color: blue;
 } 
-
+ 
 .table-one{
-    background-color: gainsboro;
+    margin-bottom: 10px;
 }

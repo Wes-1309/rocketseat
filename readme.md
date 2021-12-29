@@ -110,6 +110,18 @@
 - [x] Text-Align
 - [x] Text-Shadow
 
+### Rocketseat - Trilha Fundamentar - 9 - Formulários de outro Planeta
+
+- [x] Conceitos
+- [x] Estrutura
+- [x] . form
+- [x] . fieldset legend
+- [x] . button
+- [x] . datalist
+- [x] Tags de Entrada de Dados
+- [x] . input: autocomplete, autofocus, disabled, readonly, value, form, name, required, placeholder
+
+
 #### Referências das Documentações
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
