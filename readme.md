@@ -39,3 +39,18 @@
 - [x] . 10 - classes e atribute selectors ([type="radio"])
 - [x] . 100 - id selector
 - [x] . 1000 - inline
+- [x] At rules
+- [x] . @import - incluir css externo
+- [x] . @media - regras condicionais
+- [x] . @font-face - fontes externas
+- [x] . @keyframes - animation
+- [x] Shorthand
+- [x] . font-style, font-weight, font-size, line-height, font-family: font:bold, italic, .8em/1.2 Arial, sans-serif
+
+#### Referências das Documentações
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ReactJS](https://reactjs.org/docs/getting-started.html)
+
