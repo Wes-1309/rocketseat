@@ -2,7 +2,7 @@
     <img alt="Rocketseat Discover" src=".github/rocketseat.jpg" />
 </h1>
 
-### Rocketseat - Trilha Fundamentar - O Guia Estelar de HTML
+### Rocketseat - Trilha Fundamentar - 1 - O Guia Estelar de HTML
 
 - [x] Conceitos
 - [x] Trabalhando com os elementos
@@ -24,7 +24,7 @@
 - [x] . Meta Social
 
 
-### Rocketseat - Trilha Fundamentar - O Guia Estelar de Css
+### Rocketseat - Trilha Fundamentar - 2 - O Guia Estelar de Css
 
 - [x] Conceitos
 - [x] Box Model
@@ -46,6 +46,26 @@
 - [x] . @keyframes - animation
 - [x] Shorthand
 - [x] . font-style, font-weight, font-size, line-height, font-family: font:bold, italic, .8em/1.2 Arial, sans-serif
+- [x] DevTools: ferramenta para desenvolvedor no navegador
+- [x] Vendor Prefix
+
+### Rocketseat - Trilha Fundamentar - 3 - Nem tudo são pixels
+
+- [x] Conceitos
+- [x] Distâncias absolutas e relativas
+- [x] Porcentagens
+- [x] Position
+- [x] Funções
+- [x] Strings e Identificadores
+
+### Rocketseat - Trilha Fundamentar - 4 - Uma caixa dentro da outra
+
+- [x] Box Model
+- [x] . box sizing
+- [x] . display block inline
+- [x] . margin
+- [x] . padding
+- [x] . border outline
 
 #### Referências das Documentações
 
@@ -53,4 +73,3 @@
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [ReactJS](https://reactjs.org/docs/getting-started.html)
-
