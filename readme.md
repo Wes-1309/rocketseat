@@ -120,6 +120,15 @@
 - [x] . datalist
 - [x] Tags de Entrada de Dados
 - [x] . input: autocomplete, autofocus, disabled, readonly, value, form, name, required, placeholder
+- [x] . password: pattern="[0-9a-fA-F]{4,8}
+- [x] . email, url, file, color, checkbox,radio, textarea, select, optgroup, search, number, range, data e hora
+- [x] . hidden  
+- [x] Desafio: pensar nos requisitos, definir as necessidades 
+- [x] . Um formulário de contato
+- [x] . Deve conter um título de nome de contato usando fieldset e legend
+- [x] . Deve conter três campos: nome( um input text), email(input email), mensagem(textarea)
+- [x] . Deve conter um botão para enviar
+- [x] . O formulário deve atender a regras de acessibilidade, como label para cada campo.
 
 
 #### Referências das Documentações
