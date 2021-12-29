@@ -22,3 +22,8 @@
 - [x] . Favicon
 - [x] . Meta SEO
 - [x] . Meta Social
+
+
+### Rocketseat - Trilha Fundamentar - O Guia Estelar de Css
+
+- [x] Conceitos
