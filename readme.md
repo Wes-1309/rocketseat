@@ -89,7 +89,10 @@
 ### Rocketseat - Trilha Fundamentar - 7 - Posicionando foguetes
 
 - [x] Conceitos
-- [x] Position: static, relative[top right bottom left z-index], absolute, fixed
+- [x] Position: static, relative, absolute, fixed :: [top right bottom left z-index] 
+- [x] Element Stacking
+- [x] FlexBox: alinhamento, direcionamento, ordernar e tamanho :: display flex; flex-direction: column; justify-content: space-between
+- [x] Grid
 
 #### Referências das Documentações
 
