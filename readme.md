@@ -60,12 +60,35 @@
 
 ### Rocketseat - Trilha Fundamentar - 4 - Uma caixa dentro da outra
 
+- [x] Conceitos
 - [x] Box Model
 - [x] . box sizing
-- [x] . display block inline
+- [x] . display block: h1, h2  
+- [x] . display inline: strong, a
 - [x] . margin
 - [x] . padding
 - [x] . border outline
+ 
+### Rocketseat - Trilha Fundamentar - 5 - Agora sim, cores
+
+- [x] Conceitos
+- [x] Cores
+- [x] . keywords named values
+- [x] . hexadecimal, rbg, hsl
+- [x] . global values
+- [x] Background
+- [x] . origin-clip
+- [x] . attachment
+
+### Rocketseat - Trilha Fundamentar - 6 - Posso ver e ouvir o HTML
+
+- [x] Conceitos
+- [x] Áudio e Vídeo
+- [x] Imagens
+
+### Rocketseat - Trilha Fundamentar - 7 - Posicionando foguetes
+
+- [x] Conceitos
 
 #### Referências das Documentações
 
