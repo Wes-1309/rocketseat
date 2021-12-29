@@ -94,6 +94,22 @@
 - [x] FlexBox: alinhamento, direcionamento, ordernar e tamanho :: display flex; flex-direction: column; justify-content: space-between
 - [x] Grid
 
+### Rocketseat - Trilha Fundamentar - 8 - App bonito, até nos textos
+
+- [x] Conceitos
+- [x] Font-Family
+- [x] Font-Wight
+- [x] Font-Style
+- [x] Font-Size
+- [x] Web-Fonts
+- [x] Font-Variant
+- [x] Font-stretch
+- [x] Letter e word-spacing
+- [x] Line-Height e Text-Transform
+- [x] Text-Decoration
+- [x] Text-Align
+- [x] Text-Shadow
+
 #### Referências das Documentações
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
