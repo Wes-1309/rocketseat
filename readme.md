@@ -27,3 +27,15 @@
 ### Rocketseat - Trilha Fundamentar - O Guia Estelar de Css
 
 - [x] Conceitos
+- [x] Box Model
+- [x] . border
+- [x] . margin
+- [x] . padding
+- [x] Cascata do Css
+- [x] . origem do destino: inline > tag style > tag link
+- [x] Especificidade: cálculo matemático
+- [x] . 0 - universal selector, combinators e negation pseudo-class (:not())
+- [x] . 1 - element type selector e pseudo-elements (::before, ::after)
+- [x] . 10 - classes e atribute selectors ([type="radio"])
+- [x] . 100 - id selector
+- [x] . 1000 - inline
