@@ -20,13 +20,42 @@
     <body> 
         
         <div class="container">
+ 
+            <div class="form">
+                <form>
+                    <fieldset>
+                        
+                        <legend>Contato</legend>
+                        
+                        <label for="name">Nome</label>
+                        <input type="text" id="name"><br/>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email"><br/>
+
+                        <textarea 
+                            name="mefala" 
+                            id="mefala" 
+                            cols="30" 
+                            rows="10"
+                            placeholder="Deixe sua mensagem"></textarea><br/>
+                        
+                        <button class="favorite styled"
+                            type="button">
+                            Enviar
+                        </button>
+
+                    </fieldset>
+                </form>
+            </div>
+
             <div class="boxes">
                 <div class="box1 box"></div>
                 <div class="box2 box"></div>
                 <div class="box3 box"></div>
             </div>
 
-            <div class="table-one">
+            <div class="table">
                 <table>
                     <caption> Produzidos x Vendas por Loja</caption>
                     <colgroup>
@@ -68,6 +97,6 @@
                 </table>
             </div>
         </div>
-        
+
     </body>
 </html> 
