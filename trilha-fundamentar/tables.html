@@ -13,55 +13,63 @@
         <meta property="og:description" content="Um site com conteúdo prático de HTML da Rocketseat">
         <meta property="og:title" content="Dominar o HTML">
 
-        <link rel="stylesheet" type="text/css" href="tables.css" /> 
+        <link rel="stylesheet" type="text/css" href="tables.css" />  
+        <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="shortcut icon" href="assets/favicon-user.ico" /> 
         <title>HTMLs - Tables</title> 
     </head>
     <body> 
-        
-        <div class="container"> 
-            <div class="table">
-                <table>
-                    <caption> Produzidos x Vendas por Loja</caption>
-                    <colgroup>
-                        <col>
-                        <col span="2" style="background-color: red;">
-                        <col span="2" style="background-color: blue;">
-                    </colgroup>
-        
-                    <thead>
-                        <tr>
-                            <th rowspan="2"></th>
-                            <th colspan="2" scope="colgroup">Ellon Musk</th>
-                            <th colspan="2" scope="colgroup">Steve Jobs</th>
-                        </tr>
-                        <tr>
-                            <th scope="col">Produzidos</th>
-                            <th scope="col">Vendidos</th>
-                            <th scope="col">Produzidos</th>
-                            <th scope="col">Vendidos</th>
-                        </tr>
-                    </thead>
-        
-                    <tbody>
-                        <tr>
-                            <th scope="row">Vassouras</th>
-                            <td>50</td>
-                            <td>30</td>
-                            <td>20</td>
-                            <td>25</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Baldes</th>
-                            <td>10</td>
-                            <td>15</td>
-                            <td>20</td>
-                            <td>25</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <ul>
+            <li><a href="index.html">HTMLs</a></li>
+            <li><a class="active" href="tables.html">Tables</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="boxes.html">Boxes</a></li>
+        </ul>
+    
+        <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+            <div class="container"> 
+                <div class="table">
+                    <table>
+                        <caption> Produzidos x Vendas por Loja</caption>
+                        <colgroup>
+                            <col>
+                            <col span="2" style="background-color: red;">
+                            <col span="2" style="background-color: blue;">
+                        </colgroup>
+            
+                        <thead>
+                            <tr>
+                                <th rowspan="2"></th>
+                                <th colspan="2" scope="colgroup">Ellon Musk</th>
+                                <th colspan="2" scope="colgroup">Steve Jobs</th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Produzidos</th>
+                                <th scope="col">Vendidos</th>
+                                <th scope="col">Produzidos</th>
+                                <th scope="col">Vendidos</th>
+                            </tr>
+                        </thead>
+            
+                        <tbody>
+                            <tr>
+                                <th scope="row">Vassouras</th>
+                                <td>50</td>
+                                <td>30</td>
+                                <td>20</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Baldes</th>
+                                <td>10</td>
+                                <td>15</td>
+                                <td>20</td>
+                                <td>25</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-        </div>
-
+        </div> 
     </body>
 </html> 

@@ -130,6 +130,10 @@
 - [x] . Deve conter um botão para enviar
 - [x] . O formulário deve atender a regras de acessibilidade, como label para cada campo.
 
+### Rocketseat - Trilha Fundamentar - 10 - O guia estelar de Javascript
+
+- [x] Conceitos
+- [x] Tipos de dados: Object, Array, Undefined, null
 
 #### Referências das Documentações
 
