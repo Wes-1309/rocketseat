@@ -89,6 +89,7 @@
 ### Rocketseat - Trilha Fundamentar - 7 - Posicionando foguetes
 
 - [x] Conceitos
+- [x] Position: static, relative[top right bottom left z-index], absolute, fixed
 
 #### Referências das Documentações
 
