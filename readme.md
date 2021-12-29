@@ -135,6 +135,8 @@
 - [x] Conceitos
 - [x] Tipos de dados: Object, Array, Undefined, null
 
+- [ ] Corrigir o título do menu
+
 #### Referências das Documentações
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
