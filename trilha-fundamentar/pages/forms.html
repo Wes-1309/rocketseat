@@ -14,57 +14,59 @@
         <meta property="og:title" content="Dominar o HTML">
 
         <link rel="stylesheet" type="text/css" href="../styles/forms.css" /> 
-        <link rel="stylesheet" type="text/css" href="../styles/index.css" />
+        <link rel="stylesheet" type="text/css" href="../styles/global.css" />
         <link rel="shortcut icon" href="assets/favicon-user.ico" /> 
         <title>HTMLs - Forms</title> 
     </head>
     <body> 
 
-        <h2 class="titulo">Menu</h2>
+        <nav>
+            <h2 class="titulo">Menu</h2> 
+            
+            <ul>
+                <li><a href="../index.html">HTMLs</a></li>
+                <li><a href="tables.html">Tables</a></li>
+                <li><a class="active" href="#forms">Forms</a></li>
+                <li><a href="boxes.html">Boxes</a></li>
+            </ul>
+        </nav>
+        <article>
+             
+            <header>
+                <h2>FORMs</h2>
+            </header>
+            <form>
+                <fieldset>
 
-        
-        <ul>
-            <li><a href="../index.html">HTMLs</a></li>
-            <li><a href="tables.html">Tables</a></li>
-            <li><a class="active" href="#forms">Forms</a></li>
-            <li><a href="boxes.html">Boxes</a></li>
-        </ul>
-    
-        <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-            <div class="container"> 
-                <div class="form">
-                    <form>
-                        <fieldset>
-    
-                            <legend>Contato</legend>
-                            
-                            <label for="name">Nome</label><br/>
-                            <input type="text" id="name" name="name"
-                                placeholder="Digite seu nome completo"><br/><br/>
-    
-                            <label for="email">E-mail</label><br/>
-                            <input type="email" id="email" name="email"
-                                placeholder="Digite seu melhor e-mail"><br/><br/>
-    
-                            <textarea 
-                                name="message" 
-                                id="message" 
-                                cols="30" 
-                                rows="10"
-                                placeholder="Deixe sua mensagem"></textarea><br/>
-                            
-                            <button 
-                                id="btnEnviar"
-                                class="favorite styled"
-                                type="submit">
-                                Enviar
-                            </button>
-    
-                        </fieldset>
-                    </form>
-                </div>  
-            </div>  
-        </div>
-        
+                    <legend>Contato</legend>
+                    
+                    <label for="name">Nome</label><br/>
+                    <input type="text" id="name" name="name"
+                        placeholder="Digite seu nome completo"><br/><br/>
+
+                    <label for="email">E-mail</label><br/>
+                    <input type="email" id="email" name="email"
+                        placeholder="Digite seu melhor e-mail"><br/><br/>
+
+                    <textarea 
+                        name="message" 
+                        id="message" 
+                        cols="30" 
+                        rows="10"
+                        placeholder="Deixe sua mensagem"></textarea><br/>
+                    
+                    <button 
+                        id="btnEnviar"
+                        class="favorite styled"
+                        type="submit">
+                        Enviar
+                    </button>
+
+                </fieldset>
+            </form>   
+            
+            <h2>Confira alguns dos principais conteúdos da trilha fundamentar Confira alguns dos principais conteúdos da trilha fundamentar</h2> 
+
+        </article>
     </body>
 </html> 

@@ -1,15 +1,3 @@
-body{
-    height: 100vh;
-    margin: 0;
-    display: flex; 
-}
-
-.container{
-    margin-left: 30%;
-    margin-top: 30px;  
-}
- 
-
 .styled {
     border: 0;
     line-height: 2.5;
