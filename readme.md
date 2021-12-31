@@ -2,6 +2,8 @@
     <img alt="Rocketseat Discover" src=".github/rocketseat.jpg" />
 </h1>
 
+- orgranizar o conteúdo em forma de site com definição, código e resultado em cada item do menu
+
 ### Rocketseat - Trilha Fundamentar - 1 - O Guia Estelar de HTML
 
 - [x] Conceitos
