@@ -9,19 +9,15 @@ body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
 } 
-
-/* Menu */
-.container{
-    margin-left: 30%;
-    margin-top: 30px;  
-}
-
-.titulo h2{ 
-    background-color:#bbb;
+/* FIM - Geral */
+/* Menu */ 
+/* Títulos do Menu */ 
+nav h2.titulo {  
     color: black;
+    margin-left: 20px;
 }
-
-ul {
+    
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,41 +28,28 @@ ul {
     overflow: auto;
 }
 
-li a {
+nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a.active {
+nav li a.active {
     background-color: #04AA6D;
     color: white;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 
-ul li a i{
+nav ul li a i{
     margin-right: 10px;
 }
-
-/* Article*/
-article{
-    margin-left:19%
-}
-
-/* Header*/ 
-header {
-    background-color: #04AA6D; 
-    padding: 5px;
-    text-align: center;
-    font-size: 15px;
-    color: white;
-} 
-
+  
+/* FIM - Títulos do Menu */ 
 /* Redes Sociais */
 #about span{
     margin-right: 13px;
@@ -126,4 +109,44 @@ header {
 #contact {
   bottom: 140px;
   background-color: #555; 
+} 
+/* FIM Redes Sociais */ 
+/* FIM Menu */ 
+
+/* Content */ 
+article{
+    bottom:0;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 17.5%;
+    width: 75%;  
+}  
+article header {
+    background-color: #04AA6D; 
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+} 
+
+article main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: white;
+    padding: 20px;'
+} 
+/* FIM - Content */ 
+
+
+/* Footer */
+article footer {  
+  margin: 0px;
+  padding: 0px; 
+  background: #ddd;
+  text-align: left;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }
+ 
+/* FIM - Footer */
