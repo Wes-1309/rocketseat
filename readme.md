@@ -135,6 +135,7 @@
 ### Rocketseat - Trilha Fundamentar - 10 - O guia estelar de Javascript
 
 - [x] Criar uma aplicação para mostrar o conteúdo teórico e aplicar os fundamentos
+- [ ] . menu em cascata
 - [x] Conceitos
 - [x] Tipos de dados: Object, Array, Undefined, null
 
