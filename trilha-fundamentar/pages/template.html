@@ -68,6 +68,39 @@
 }  
 /* FIM - HTML Box */
 
+/* HTML Table */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.form{
+    margin-bottom: 10px;
+}
+ 
+/* FIM - HTML Table */
     </style>
   </head>
   <body class="w3-content" style="max-width:1200px"> 
@@ -215,11 +248,39 @@
                   </div> 
                 </div> 
                 <div class="card">
-                  <h2 id="titlecss">TITLE CSS</h2>
-                  <h5>Title description, Dec 7, 2017</h5>
-                  <div class="fakeimg" style="height:200px;">Image</div>
-                  <p>Some text..</p>
-                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                  <h2 id="titlecss">FORMs</h2>
+                  <h5>Formulário com inputs e semântica</h5>
+                  <div> 
+                    <form>
+                        <fieldset>
+
+                            <legend>Contato</legend>
+                            
+                            <label for="name">Nome</label><br/>
+                            <input type="text" id="name" name="name"
+                                placeholder="Digite seu nome completo"><br/><br/>
+
+                            <label for="email">E-mail</label><br/>
+                            <input type="email" id="email" name="email"
+                                placeholder="Digite seu melhor e-mail"><br/><br/>
+
+                            <textarea 
+                                name="message" 
+                                id="message" 
+                                cols="30" 
+                                rows="10"
+                                placeholder="Deixe sua mensagem"></textarea><br/>
+                            
+                            <button 
+                                id="btnEnviar"
+                                class="favorite styled"
+                                type="submit">
+                                Enviar
+                            </button>
+
+                        </fieldset>
+                    </form>   
+                  </div> 
                 </div> 
                 <div class="card"> 
                   <h2 id="titlePoo">TITLE POO</h2>
