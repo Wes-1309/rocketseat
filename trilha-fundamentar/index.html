@@ -25,14 +25,14 @@
         </a>
         <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
           <a href="#titlePoo" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>programação orientada a objetos</a>
+          <a href="#titleEd" class="w3-bar-item w3-button">estrutura de dados</a>
           <a href="#titleFunctions" class="w3-bar-item w3-button">funções</a>
           <a href="#titleMethods" class="w3-bar-item w3-button">métodos</a>
           <a href="#titleDinamic" class="w3-bar-item w3-button">dinâmico</a>
         </div>
-        <a href="#" class="w3-bar-item w3-button">sql</a>
-        <a href="#" class="w3-bar-item w3-button">git</a>
-        <a href="#" class="w3-bar-item w3-button">nodejs</a>
-        <a href="#" class="w3-bar-item w3-button">estrutura de dados</a>
+        <a href="#titleSql" class="w3-bar-item w3-button">sql</a>
+        <a href="#titleGit" class="w3-bar-item w3-button">git</a>
+        <a href="#titleNodejs" class="w3-bar-item w3-button">nodejs</a>
 
       </div>
       <a href="#footer" class="w3-bar-item w3-button w3-padding">Faça-me sua melhor pergunta</a> 
@@ -147,50 +147,76 @@
               <div class="leftcolumn">
                 <div class="card">
                   <h2 id="titlehtml">HTMLs</h2>
-                  <h5>Manibulação de Elemento com FlexBox</h5>
-                  <div> 
-                    <div class="box1 box"></div>
-                    <div class="box2 box"></div>
-                    <div class="box3 box"></div>
-                  </div> 
+                  <h5>Manibulação de Elemento com FlexBox</h5> 
+                  <div class="row">
+                    <div class="column column-left">
+                      <h5>Posicionamento de elementos</h5> 
+                      <div> 
+                        <div class="box1 box"></div>
+                        <div class="box2 box"></div>
+                        <div class="box3 box"></div>
+                      </div> 
+                    </div>
+                    <div class="column column-right">
+                      <h5>Propriedades para Posicionamento</h5>
+                      <p>Some text..Some text..Some text..Some text..Some text..
+                      Some text..Some text..Some text..Some text..Some text..Some text..</p>
+                    </div>
+                  </div>
                 </div> 
-                <div class="card">
-                  <h2 id="titlecss">FORMs</h2>
+                <div class="card forms">
+                  <h2>FORMs</h2>
                   <h5>Formulário com inputs e semântica</h5>
                   <div> 
-                    <form>
-                        <fieldset>
+                    <div class="row-forms">
+                      <div class="column-forms column-left-forms">
+                        <h5>Posicionamento de elementos</h5> 
+                        <div> 
+                          <form>
+                            <fieldset>
 
-                            <legend>Contato</legend>
-                            
-                            <label for="name">Nome</label><br/>
-                            <input type="text" id="name" name="name"
-                                placeholder="Digite seu nome completo"><br/><br/>
+                                <legend>Contato</legend>
+                                
+                                <label for="name">Nome</label><br/>
+                                <input type="text" id="name" name="name"
+                                    placeholder="Digite seu nome completo"><br/><br/>
 
-                            <label for="email">E-mail</label><br/>
-                            <input type="email" id="email" name="email"
-                                placeholder="Digite seu melhor e-mail"><br/><br/>
+                                <label for="email">E-mail</label><br/>
+                                <input type="email" id="email" name="email"
+                                    placeholder="Digite seu melhor e-mail"><br/><br/>
 
-                            <textarea 
-                                name="message" 
-                                id="message" 
-                                cols="30" 
-                                rows="10"
-                                placeholder="Deixe sua mensagem"></textarea><br/>
-                            
-                            <button 
-                                id="btnEnviar"
-                                class="favorite styled"
-                                type="submit">
-                                Enviar
-                            </button>
+                                <textarea 
+                                    name="message" 
+                                    id="message" 
+                                    cols="30" 
+                                    rows="4"
+                                    placeholder="Deixe sua mensagem"></textarea><br/>
+                                
+                                <button 
+                                    id="btnEnviar"
+                                    class="favorite styled"
+                                    type="submit">
+                                    Enviar
+                                </button>
 
-                        </fieldset>
-                    </form>   
+                            </fieldset>
+                        </form>   
+                        </div> 
+                      </div>
+                      <div class="column-forms column-right-forms">
+                        <h5>Propriedades para Formulários</h5>
+                        <p>Some text..Some text..Some text..Some text..Some text..
+                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
+                        <p>Some text..Some text..Some text..Some text..Some text..
+                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
+                        <p>Some text..Some text..Some text..Some text..Some text..
+                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
+                      </div>
+                    </div> 
                   </div> 
                 </div> 
                 <div class="card"> 
-                  <h2 id="titlePoo">TABLEs</h2>
+                  <h2>TABLEs</h2>
                   <h5>Tabela semântica complexa</h5>
                   <div>
                     <table>
@@ -235,21 +261,42 @@
                   </div> 
                 </div>
                 <div class="card">
-                  <h2 id="titleFunctions">TITLE Functions</h2>
+                  <h2 id="titlecss">CSSs</h2>
                   <h5>Title description, Dec 7, 2017</h5>
                   <div class="fakeimg" style="height:200px;">Image</div>
                   <p>Some text..</p>
                   <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 </div>  
                 <div class="card"> 
-                  <h2 id="titleMethods">TITLE Método</h2>
+                  <h2 id="titlePoo">Programação Orientado a Objetos</h2>
                   <h5>Fazer, Dec 7, 2017</h5>
                   <div class="fakeimg" style="height:200px;">Image</div>
                   <p>Some text..</p>
                   <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                 </div>  
                 <div class="card"> 
-                  <h2 id="titleDinamic">TITLE Dinamico</h2>
+                  <h2 id="titleEd">Estrutura de Dados</h2>
+                  <h5>Fazer, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div> 
+                <div class="card">
+                  <h2 id="titleFunctions">Funções</h2>
+                  <h5>Title description, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>  
+                <div class="card"> 
+                  <h2 id="titleMethods">Métodos</h2>
+                  <h5>Fazer, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>  
+                <div class="card"> 
+                  <h2 id="titleDinamic">Dinâmico</h2>
                   <h5>Fazer, Dec 7, 2017</h5>
                   <div class="fakeimg" style="height:200px;">Image</div>
                   <p>Some text..</p>

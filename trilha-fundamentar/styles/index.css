@@ -59,9 +59,51 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
 }
 
 .box3{
-    background-color: blue;
+    background-color: blue; 
 }  
+
+/*Segunda coluna */
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left; 
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column-left {
+  width: 35%;
+  background-color:#aaa; 
+}
+.column-right {
+  width: 65%;
+  background-color:#bbb;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* FIM - HTML Box */
+
+.column-forms {
+  float: left; 
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+.column-left-forms {
+  width: 35%;
+  background-color:#aaa; 
+}
+.column-right-forms {
+  width: 65%;
+  background-color:#bbb;
+}
+/* Clear floats after the columns */
+.row-forms:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* HTML Table */
 .styled {
