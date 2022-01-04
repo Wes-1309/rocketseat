@@ -11,6 +11,42 @@
     <style>
       .w3-sidebar a {font-family: "Roboto", sans-serif}
       body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;} 
+ 
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+} 
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn{   
+    width: 100%;
+    padding: 0;
+  }
+}
     </style>
   </head>
   <body class="w3-content" style="max-width:1200px"> 
@@ -21,16 +57,16 @@
         <h3 class="w3-wide"><b>< CÓDIGO ></b></h3>
       </div>
       <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
-        <a href="#" class="w3-bar-item w3-button">html</a>
-        <a href="#" class="w3-bar-item w3-button">css</a>
+        <a href="#titlehtml" class="w3-bar-item w3-button">html</a>
+        <a href="#titlecss" class="w3-bar-item w3-button">css</a>
         <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
           javascript <i class="fa fa-caret-down"></i>
         </a>
         <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
-          <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>programação orientada a objetos</a>
-          <a href="#" class="w3-bar-item w3-button">funções</a>
-          <a href="#" class="w3-bar-item w3-button">métodos</a>
-          <a href="#" class="w3-bar-item w3-button">dinâmico</a>
+          <a href="#titlePoo" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>programação orientada a objetos</a>
+          <a href="#titleFunctions" class="w3-bar-item w3-button">funções</a>
+          <a href="#titleMethods" class="w3-bar-item w3-button">métodos</a>
+          <a href="#titleDinamic" class="w3-bar-item w3-button">dinâmico</a>
         </div>
         <a href="#" class="w3-bar-item w3-button">sql</a>
         <a href="#" class="w3-bar-item w3-button">git</a>
@@ -69,17 +105,17 @@
 
       <!-- Image header -->
       <div class="w3-display-container w3-container">
-        <img src="../assets/images/code.jpg" alt="Jeans" style="width:100%">
+        <img src="../assets/images/code.jpg" alt="Codes" style="width:100%">
         <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
           <h1 class="w3-jumbo w3-hide-small">Fundamentos</h1>
           <h1 class="w3-hide-large w3-hide-medium">Fundamentos</h1>
           <h1 class="w3-hide-small">HTML CSS JAVASCRIPT</h1>
-          <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">Domine Agora</a></p>
+          <p><a href="#code" class="w3-button w3-black w3-padding-large w3-large">Domine Agora</a></p>
         </div>
       </div>
 
-      <div class="w3-container w3-text-grey" id="jeans">
-        <div class="w3-bar-item w3-padding-24 w3-wide">Código dos Fundamentos</div>
+      <div class="w3-container w3-text-grey" id="code">
+        <div id="titlehtml" class="w3-bar-item w3-padding-24 w3-wide">Código dos Fundamentos</div>
         <p>8 items</p>
       </div>
  
@@ -141,70 +177,51 @@
           </div>
         </div>
 
-      </div>  
-
-      <div class="w3-container w3-text-grey" id="jeans">
-        <div class="w3-bar-item w3-padding-24 w3-wide">Código dos Fundamentos</div>
-        <p>2 items</p>
-      </div>
+      </div>   
  
       <!-- Product grid -->
       <div class="w3-row w3-grayscale">
-        <div class="w3-col l3 s6">
-          <div class="w3-container">
-            <img src="../assets/images/code1.jpg" style="width:100%">
-            <p>Projeto 1<br><b>$24.99</b></p>
-          </div>
-          <div class="w3-container">
-            <img src="../assets/images/code2.jpg" style="width:100%">
-            <p>Projeto 5<br><b>$19.99</b></p>
-          </div>
-        </div>
-
-        <div class="w3-col l3 s6">
-          <div class="w3-container">
-            <div class="w3-display-container">
-              <img src="../assets/images/code2.jpg" style="width:100%">
-              <span class="w3-tag w3-display-topleft">New</span>
-              <div class="w3-display-middle w3-display-hover">
-                <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-              </div>
-            </div>
-            <p>Projeto 2<br><b>$19.99</b></p>
-          </div>
-          <div class="w3-container">
-            <img src="../assets/images/code3.jpg" style="width:100%">
-            <p>Projeto 6<br><b>$20.50</b></p>
-          </div>
-        </div>
-
-        <div class="w3-col l3 s6">
-          <div class="w3-container">
-            <img src="../assets/images/code3.jpg" style="width:100%">
-            <p>Projeto 3<br><b>$20.50</b></p>
-          </div>
-          <div class="w3-container">
-            <div class="w3-display-container">
-              <img src="../assets/images/code4.jpg" style="width:100%">
-              <span class="w3-tag w3-display-topleft">Sale</span>
-              <div class="w3-display-middle w3-display-hover">
-                <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
-              </div>
-            </div>
-            <p>Projeto 7<br><b class="w3-text-red">$14.99</b></p>
-          </div>
-        </div>
-
-        <div class="w3-col l3 s6">
-          <div class="w3-container">
-            <img src="../assets/images/code4.jpg" style="width:100%">
-            <p>Projeto 4<br><b>$14.99</b></p>
-          </div>
-          <div class="w3-container">
-            <img src="../assets/images/code1.jpg" style="width:100%">
-            <p>Projeto 8<br><b>$24.99</b></p>
-          </div>
-        </div>
+        <article>  
+            <main>
+              <div class="leftcolumn">
+                <div class="card">
+                  <h2 id="titlecss">TITLE CSS</h2>
+                  <h5>Title description, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div> 
+                <div class="card"> 
+                  <h2 id="titlePoo">TITLE POO</h2>
+                  <h5>Fazer, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+                <div class="card">
+                  <h2 id="titleFunctions">TITLE Functions</h2>
+                  <h5>Title description, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>  
+                <div class="card"> 
+                  <h2 id="titleMethods">TITLE Método</h2>
+                  <h5>Fazer, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>  
+                <div class="card"> 
+                  <h2 id="titleDinamic">TITLE Dinamico</h2>
+                  <h5>Fazer, Dec 7, 2017</h5>
+                  <div class="fakeimg" style="height:200px;">Image</div>
+                  <p>Some text..</p>
+                  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div> 
+              </div>   
+            </main>   
+        </article>   
 
       </div>  
 
@@ -291,7 +308,7 @@
         }
       }
 
-      // Click on the "Jeans" link on page load to open the accordion for demo purposes
+      // Click on the "Codes" link on page load to open the accordion for demo purposes
       document.getElementById("myBtn").click();  
       // Open and close sidebar
       function w3_open() {
