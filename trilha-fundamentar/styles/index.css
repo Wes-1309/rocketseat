@@ -104,6 +104,15 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   display: table;
   clear: both;
 }
+ 
+.column-left-tables {
+  width: 55%;
+  background-color:#aaa; 
+}
+.column-right-tables {
+  width: 45%;
+  background-color:#bbb;
+}
 
 /* HTML Table */
 .styled {
