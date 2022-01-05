@@ -1,8 +1,8 @@
 <h1 align="center">
-    <img alt="Rocketseat Discover" src=".github/rocketseat.jpg" />
-	- orgranizar o conteúdo em forma de site com definição, código e resultado em cada item do menu
+    <img alt="Rocketseat Discover" src=".github/rocketseat.jpg" />	
 </h1>
 
+- organizar o conteúdo em forma de site com definição, código e resultado em cada item do menu
 
 ### Rocketseat - Trilha Conectar
 - [x] 1 - Ambiente Dev: Windows, VSCode, Google Chrome, NodeJS
