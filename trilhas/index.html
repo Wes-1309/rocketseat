@@ -167,6 +167,29 @@
                     </div>
                   </div>
                 </div> 
+                <div class="card">
+                  <h2 id="titlehtml">Acessibildade</h2>
+                  <h5>HTML faz sentido para todos</h5> 
+                  <div class="row">
+                    <div class="column column-left">
+                      <h5>Destaque e semântica de elementos</h5> 
+                      <p>strong, span</p> 
+                      <p><code>div class="cart"</code></p>
+                      <h5>Nem só de classes ou IDs</h5> 
+                      <p>selectors and combinators</p> 
+                      <p>child combinator:<code>body > ul > li</code></p>
+                    </div>
+                    <div class="column column-right">
+                      <h5>Pseudo-Classes</h5> 
+                      <p>nth-child: <code>article p:nth-child(1){}</code></p>
+                      <h5>Pseudo-Elements</h5> 
+                      <p><code>li::after{ content: ";";}</code></p> 
+                      <p>::before</p>
+                      <p>::after</p>
+                      <p>::first-line</p>
+                    </div>
+                  </div>
+                </div>
                 <div class="card forms">
                   <h2>FORMs</h2>
                   <h5>Formulário com inputs e semântica</h5>
@@ -176,44 +199,35 @@
                         <h5>Posicionamento de elementos</h5> 
                         <div> 
                           <form>
-                            <fieldset>
-
-                                <legend>Contato</legend>
-                                
+                            <fieldset> 
+                                <legend>Contato</legend> 
                                 <label for="name">Nome</label><br/>
                                 <input type="text" id="name" name="name"
-                                    placeholder="Digite seu nome completo"><br/><br/>
-
+                                    placeholder="Digite seu nome completo"><br/><br/> 
                                 <label for="email">E-mail</label><br/>
                                 <input type="email" id="email" name="email"
-                                    placeholder="Digite seu melhor e-mail"><br/><br/>
-
+                                    placeholder="Digite seu melhor e-mail"><br/><br/> 
                                 <textarea 
                                     name="message" 
                                     id="message" 
                                     cols="30" 
                                     rows="4"
-                                    placeholder="Deixe sua mensagem"></textarea><br/>
-                                
+                                    placeholder="Deixe sua mensagem"></textarea><br/> 
                                 <button 
                                     id="btnEnviar"
                                     class="favorite styled"
                                     type="submit">
                                     Enviar
-                                </button>
-
+                                </button> 
                             </fieldset>
                         </form>   
                         </div> 
                       </div>
                       <div class="column-forms column-right-forms">
                         <h5>Propriedades para Formulários</h5>
-                        <p>Some text..Some text..Some text..Some text..Some text..
-                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
-                        <p>Some text..Some text..Some text..Some text..Some text..
-                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
-                        <p>Some text..Some text..Some text..Some text..Some text..
-                        Some text..Some text..Some text..Some text..Some text..Some text..</p>
+                        <p>Na construção de formulários temos que nos atentar as requisições a partir do botão inserido.</p>
+                        <p>Outro ponto importante é a disposição dos inputs e dos respectivos labels que explicam qual é a informação que tal elemento deseja.</p>
+                        <p>Uma forma de ser ainda mais claro é adicionar uma propriedade ao elemento que exemplica a forma que deseja receber a informação. a <code>placeholder="Digite seu meu e-mail"</code></p>
                       </div>
                     </div> 
                   </div> 
@@ -332,6 +346,30 @@
                   </div>
                 </div> 
                 <div class="card">
+                  <h2>Flexbox</h2>
+                  <h5>Alinhamento dos planetas</h5>
+                  <div class="row">
+                    <div class="column-flexbox column-left">
+                      <h5>Um menu navigation</h5> 
+                      <ul>
+                        <li>Criar o < header > de um site que contenha uma logo e um menu</li>
+                        <li>um elemento deve ficar do lado do outro</li>
+                        <li>a logo ficará na extrema esquerda e o menu na extrema direita</li>
+                        <li>os itens do menu ficarão um ao lado do outro, com um espaço de .8rem entre eles</li>
+                        <li>o último elemento do menu será um botão de contato e poderá utilizar o elemento <code>:last-child</code> para estilizar</li>
+                      </ul>
+                    </div>
+                    <div class="column-flexbox column-right">
+                      <h5>Nem tudo são pixels</h5>
+                      <p>Tipo numérico, distância absoluta e relativa, porcentagem, position, funções, strings e identificade</p>  
+                      <h5>Agora sim, Cores</h5>
+                      <p>hexadecimal, rgb, hsl, global valores</p>
+                      <h5>Background</h5>
+                      <p>color, image-repeat, position, size, origem-clip, attachment, shorthand</p> 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
                   <h2 id="titlejs">Javascript</h2>
                   <h5>Programar em JS</h5> 
                   <div class="row">
@@ -364,9 +402,7 @@
                         </ul>
                     </div>
                   </div>
-                </div> 
-
-
+                </div>  
                 <div class="card"> 
                   <h2 id="titlePoo">Programação Orientado a Objetos</h2>
                   <h5>Fazer, Dec 7, 2017</h5>

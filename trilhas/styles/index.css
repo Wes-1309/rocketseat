@@ -83,8 +83,12 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   display: table;
   clear: both;
 }
-/* FIM - HTML Box */
-
+/* FIM - HTML Box */ 
+.column-flexbox {
+  float: left; 
+  padding: 10px;
+  height: 380px; /* Should be removed. Only for demonstration */
+}
 
 .column-js {
   float: left; 
