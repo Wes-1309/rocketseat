@@ -4,6 +4,15 @@
 
 - orgranizar o conteúdo em forma de site com definição, código e resultado em cada item do menu
 
+### Rocketseat - Trilha Conectar
+- [x] 1 - Ambiente Dev: Windows, VSCode, Google Chrome, NodeJS
+- [x] 2 - Guia Estelar de Programação: O que é Programar, Como funcionar a Web
+- [x] 3 - Computador, Software e Hardware: Por dentro do Computador
+- [x] 4 - Internet, Roteador, Servidores: O funcionamento da Internet
+- [x] 5 - Sistemas Operacionais: O funcionamento do Sistema Operacional
+- [x] 6 - Tipos de Aplicação web: estático, dinâmico, frontend, backend
+- [x] 7 - Linguagem de Programação: low-level, high-level
+
 ### Rocketseat - Trilha Fundamentar 
 - [x] 1 - O Guia Estelar de HTML 
 - [x] 2 - O Guia Estelar de Css 
