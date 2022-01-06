@@ -23,7 +23,7 @@
 - [x] 7 - Posicionando foguetes
 - [x] 8 - App bonito, até nos textos
 - [x] 9 - Formulários de outro Planeta
-- [x] 10 - O guia estelar de Javascript
+- [x] 10 - O guia estelar de Javascript 
 
 #### Referências das Documentações
 

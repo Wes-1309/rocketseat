@@ -77,6 +77,10 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   width: 65%;
   background-color:#bbb;
 }
+.column-entire {
+  width: 100%;
+  background-color:#aaa; 
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -96,6 +100,11 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   height: 320px; /* Should be removed. Only for demonstration */
 }
 
+.column-entire-up {
+  float: left; 
+  padding: 0px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
 .column-forms {
   float: left; 
   padding: 10px;
@@ -168,3 +177,14 @@ code {
   font-size: 105%;
 }
 /* FIM - HTML Code */
+
+/* template web */
+header{
+  padding: 4rem;
+  background: lightgray;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+/* FIM - template web */
