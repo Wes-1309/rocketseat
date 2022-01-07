@@ -183,7 +183,7 @@ code {
 
 /* template web */
 .template-header{
-  padding: 4rem;
+  padding: 1rem;
   background: lightgray;
 }
 .template-nav{
@@ -203,5 +203,23 @@ code {
   background: black;
   color: white;
   padding: .8rem;
+}
+
+.template-container{
+  display: flex;
+  gap: 1rem;
+}
+
+.template-aside, .template-main{
+ border: 1px solid;
+ height: 55vh;
+}
+
+.template-aside{
+  flex-basis: 25%;
+}
+
+.template-main{
+  flex: 1;
 }
 /* FIM - template web */
