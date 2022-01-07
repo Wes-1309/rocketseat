@@ -106,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
 .column-entire-up {
   float: left; 
   padding: 0px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 550px; /* Should be removed. Only for demonstration */
 }
 .column-forms {
   float: left; 
@@ -212,7 +212,7 @@ code {
 
 .template-aside, .template-main{
  border: 1px solid;
- height: 55vh;
+ height: 60vh;
 }
 
 .template-aside{
@@ -223,9 +223,33 @@ code {
   flex: 1;
 }
 
-.template-galey img{
+.template-main button{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  gap: .4rem;
+}
+
+.template-main button i{
+  width: 2rem;
+  height: 2rem;
+}
+
+.template-footer {
+  margin-top: auto;
+  background: gray;
+  color: white;
+  height: 8rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.template-galey img{ 
   width: 30%;
-  height: auto;
+  height: 30%;
 }
 
 .template-galey{
