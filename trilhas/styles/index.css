@@ -222,4 +222,16 @@ code {
 .template-main{
   flex: 1;
 }
+
+.template-galey img{
+  width: 30%;
+  height: auto;
+}
+
+.template-galey{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  justify-content: center;
+}
 /* FIM - template web */
