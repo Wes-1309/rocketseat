@@ -24,6 +24,21 @@
 - [x] 8 - App bonito, até nos textos
 - [x] 9 - Formulários de outro Planeta
 - [x] 10 - O guia estelar de Javascript 
+- [x] 11 - HTML que faz sentido para todos
+- [x] 12 - Nem só de classes ou IDs 
+- [x] 13 - Alinhando os Planetas
+- [x] 14 - Pilotando com a DOM
+- [x] 15 - Terminal
+- [x] 16 - NodeJS
+- [x] 17 - Node + EJS
+- [x] 18 - SQL
+- [x] 19 - Estrutura de Dados
+- [x] 20 - Programação Orientada a Objetos 
+- [x] 21 - Programação Funcional
+- [x] 22 - Guia Estelar de Git
+- [x] 23 - Guia Estelar de Github
+- [x] 24 - Guia Estelar de HTTP
+- [x] 25 - Maratona 01 - HTML, CSS, JS - DevFinances
 
 #### Referências das Documentações
 
