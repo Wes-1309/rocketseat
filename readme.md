@@ -44,5 +44,4 @@
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [ReactJS](https://reactjs.org/docs/getting-started.html)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
