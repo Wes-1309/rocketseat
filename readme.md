@@ -4,6 +4,11 @@
 
 - organizar o conteúdo em forma de site com definição, código e resultado em cada item do menu
 
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;"> 
+  <img alt="RocketseatDiscover" title="#RocketseatDiscover" src="./.github/rocketseat-1.jpg" width="400px"> 
+  <img alt="RocketseatDiscover" title="#RocketseatDiscover" src="./.github/rocketseat-2.jpg" width="400px"> 
+</p> 
+
 ### Rocketseat - Trilha Conectar
 - [x] 1 - Ambiente Dev: Windows, VSCode, Google Chrome, NodeJS
 - [x] 2 - Guia Estelar de Programação: O que é Programar, Como funcionar a Web
