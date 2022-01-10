@@ -37,9 +37,9 @@
 - [x] 16 - NodeJS
 - [x] 17 - Node + EJS
 - [x] 18 - SQL
-- [x] 19 - Estrutura de Dados
-- [x] 20 - Programação Orientada a Objetos 
-- [x] 21 - Programação Funcional
+- [x] 19 - Estrutura de Dados: detalhes de código
+- [x] 20 - Programação Orientada a Objetos: detalhes de código
+- [x] 21 - Programação Funcional: detalhes de código
 - [x] 22 - Guia Estelar de Git
 - [x] 23 - Guia Estelar de Github
 - [x] 24 - Guia Estelar de HTTP
