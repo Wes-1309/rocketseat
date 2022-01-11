@@ -133,6 +133,12 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   float: left; 
   padding: 10px;
   height: 370px; /* Should be removed. Only for demonstration */
+} 
+
+.column-poo-abs {
+  float: left; 
+  padding: 10px;
+  height: 320px; /* Should be removed. Only for demonstration */
 }  
 
 .column-poo-encap {
@@ -164,6 +170,12 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {
   float: left; 
   padding: 10px;
   height: 560px; /* Should be removed. Only for demonstration */
+}  
+ 
+.column-three-two {
+  float: left; 
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
 }  
 
 .column-left-three{
