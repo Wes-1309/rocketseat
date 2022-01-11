@@ -9,6 +9,8 @@
   <img alt="RocketseatDiscover" title="#RocketseatDiscover" src="./.github/rocketseat-2.jpg" width="400px"> 
 </p> 
 
+## Conteúdo Abordado
+
 ### Rocketseat - Trilha Conectar
 - [x] 1 - Ambiente Dev: Windows, VSCode, Google Chrome, NodeJS
 - [x] 2 - Guia Estelar de Programação: O que é Programar, Como funcionar a Web
@@ -44,6 +46,14 @@
 - [x] 23 - Guia Estelar de Github
 - [x] 24 - Guia Estelar de HTTP
 - [x] 25 - Maratona 01 - HTML, CSS, JS - DevFinances
+
+## Aplicação
+- [ ] Construir uma aplicação com modelo spa
+- [ ] listar os títulos das trilhas
+- [ ] listar as descrições das trilhas
+- [ ] expor o conteúdo das trilhas
+- [ ] demonstrar os códigos de forma prática das trilhas
+- [ ] Criar elementos web em html, css, js puro para completar um portal de conteúdo.
 
 #### Referências das Documentações
 
