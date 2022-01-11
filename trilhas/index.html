@@ -495,7 +495,7 @@
                   </div>  
                   <h5>Mais paradigmas de P.O.O</h5>
                   <div class="row">
-                    <div class="column-poo column-left">
+                    <div class="column-poo column-left-poo-par">
                       <h6>Herança</h6>  
                       <ul>
                         <li>objetos com relação de pais e filhos</li> 
@@ -507,10 +507,13 @@
                         <li>Quando usamos da herança para extender um objeto, pode ser que algum atributo e/ou método precise ser reescrita. Por exemplo, águia e arara extendem de ave mas sofreram polimorfismo.</li> 
                       </ul>
                     </div>
-                    <div class="column-poo column-right">                        
+                    <div class="column-poo column-right-poo-par">                        
                       <h6>Abstração</h6> 
                       <ul>
-                        <li>Item 1</li> 
+                        <li>Template ou identidade de uma classe que será construído</li> 
+                        <li>atributos e métodos podem ser criados na classe de abstração, superclasse. MAS ...</li> 
+                        <li>a implementação dos métodos e atributos só poderá ser feita na classe que irá herdar essa abstração</li> 
+                        <li>ou seja, apenas implementa na classe que irá herdar e não a classe abstrata</li>
                       </ul>  
                     </div>
                   </div> 
@@ -529,7 +532,23 @@
                     <h6>Polimorfismo - Subclasse</h6> 
                     <script src="https://gist.github.com/douglasabnovato/5e0e2800b873df2512e64002b6c0fa56.js"></script>    
                   </div>
-                </div>   
+                </div> 
+                <h5>Paradigma Abstração em código</h5>
+                <div class="row">
+                  <div class="column-three column-left-three">
+                    <h6>Abstração 1</h6>
+                    <script src="https://gist.github.com/douglasabnovato/5c1f35949b9e6ab3fbaf3c2f3719ca8a.js"></script>
+                  </div>
+                  <div class="column-three column-medium-three">                        
+                    <h6>Abstração 2</h6> 
+                    <script src="https://gist.github.com/douglasabnovato/71d7da7aeb44d87c50f81bf0560eb878.js"></script>  
+                  </div>
+                  <div class="column-three column-right-three">                      
+                    <h6>Abstração 3</h6> 
+                    <script src="https://gist.github.com/douglasabnovato/5e0e2800b873df2512e64002b6c0fa56.js"></script>    
+                  </div>
+                </div>
+                <h6>Ou seja, todo objeto criado é um protótipo que já herda diversas características</h6>     
                 <div class="card"> 
                   <h2 id="titleEd">Estrutura de Dados</h2>
                   <h4>o poder dos algoritmos</h4> 
